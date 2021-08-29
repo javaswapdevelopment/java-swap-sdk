@@ -2091,6 +2091,15 @@
   dependencies:
     browser-headers "^0.4.1"
 
+"@javaswap/java-swap-core@^0.1.1":
+  version "0.1.1"
+  resolved "https://registry.yarnpkg.com/@javaswap/java-swap-core/-/java-swap-core-0.1.1.tgz#44a7ee5a3eae6a084ce265467eb7b5597e879cc3"
+  integrity sha512-lJ29Rj3cxG1ZnKAgHRDxaXw6vpPs0Kk/i7U4zB2FgY70uh9auvyUPIjPNwecVfbk4UAgANzzbPONTU7yjb2GDw==
+  dependencies:
+    truffle "^5.1.41"
+    truffle-flattener "^1.4.4"
+    truffle-hdwallet-provider "^1.0.17"
+
 "@jest/console@^24.7.1", "@jest/console@^24.9.0":
   version "24.9.0"
   resolved "https://registry.yarnpkg.com/@jest/console/-/console-24.9.0.tgz#79b1bc06fb74a8cfb01cbdedf945584b1b9707f0"
@@ -2318,15 +2327,6 @@
   dependencies:
     "@nodelib/fs.scandir" "2.1.4"
     fastq "^1.6.0"
-
-"@pancakeswap-libs/pancake-swap-core@^0.1.0":
-  version "0.1.0"
-  resolved "https://registry.yarnpkg.com/@pancakeswap-libs/pancake-swap-core/-/pancake-swap-core-0.1.0.tgz#6957f1fa02170531a2ffbf95f2c0e145e9d21bc2"
-  integrity sha512-2jYiD1Ec3xAbP4JTa/Ozylx0xI4VwC7diCm5ak4AtGrIRhfRLSanaZSQdVpLigUnIFszma/4nVWtt3cup4Poxw==
-  dependencies:
-    truffle "^5.1.41"
-    truffle-flattener "^1.4.4"
-    truffle-hdwallet-provider "^1.0.17"
 
 "@protobufjs/aspromise@^1.1.1", "@protobufjs/aspromise@^1.1.2":
   version "1.1.2"
